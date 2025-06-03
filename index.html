@@ -26,6 +26,8 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
     />
+    <!-- Three.js library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
     <title>Yashvardhan | Web Developer</title>
   </head>
 
@@ -50,12 +52,8 @@
    
     <!-- Hero Section -->
     <section class="hero" id="about">
-      <img
-        src="assets/images/hacker.gif"
-        alt="jane-doe"
-        loading="lazy"
-        class="hero-img"
-      />
+      <canvas id="threejs-canvas"></canvas>
+      <!-- TODO: Add a professional hero image or subtle animation here. Consider an abstract design, a high-quality personal photo if appropriate, or a relevant graphic representing software development. -->
       <div class="bio animate__animated animate__shakeX">
         <h2 class="bio-title">About Me</h2>
         <p class="bio-text">
@@ -243,7 +241,7 @@
 
     <!-- Footer section -->
     <footer>
-      <p class="copy">&copy; Copyright 2023</p>
+      <p class="copy">&copy; Copyright 2025</p>
       <p class="copy">
         Built with &#x2661; by
         <a href="https://www.linkedin.com/in/yashvardhan-4735121b9/" target="_blank"
@@ -254,6 +252,7 @@
 
     <!-- Website scripts -->
     <script src="assets/js/app.js"></script>
+    <script src="assets/js/3d-scene.js"></script>
 
     <!-- Ion icons scripts -->
     <script
